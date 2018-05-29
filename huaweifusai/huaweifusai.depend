@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1523955010 source:e:\501\simulation_501\huawei\huaweifusai\main.cpp
+	"predict.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1520410080 source:e:\501\simulation_501\huawei\huaweifusai\io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+
+1524745847 source:e:\501\simulation_501\huawei\huaweifusai\predict.cpp
+	"predict.h"
+	<stdio.h>
+	<vector>
+
+1524743735 e:\501\simulation_501\huawei\huaweifusai\predict.h
+	"lib_io.h"
+	<string>
+	<stdio.h>
+	<iostream>
+	<ctime>
+	<cstring>
+	<sstream>
+	<vector>
+	<map>
+	<cstdlib>
+	<algorithm>
+	<fstream>
+	<streambuf>
+	<cmath>
+	<ctgmath>
+
+1520410080 e:\501\simulation_501\huawei\huaweifusai\lib_io.h
+
+1520410080 e:\501\simulation_501\huawei\huaweifusai\lib_time.h
+

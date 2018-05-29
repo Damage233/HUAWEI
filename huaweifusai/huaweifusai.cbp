@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="huaweifusai" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/huaweifusai" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/huaweifusai" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="CMakeLists.txt" />
+		<Unit filename="huaweifusai.cbp" />
+		<Unit filename="huaweifusai.layout" />
+		<Unit filename="io.cpp" />
+		<Unit filename="lib_io.h" />
+		<Unit filename="lib_time.h" />
+		<Unit filename="logEveryFlavorData.csv" />
+		<Unit filename="main.cpp" />
+		<Unit filename="predict.cpp" />
+		<Unit filename="predict.h" />
+		<Unit filename="unSortEveryFlavorData.csv" />
+		<Unit filename="xxx/TrainData.txt" />
+		<Unit filename="xxx/input.txt" />
+		<Unit filename="xxx/output.txt" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
